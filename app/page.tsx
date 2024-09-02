@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main
-      className={`flex min-h-screen flex-col items-center p-24 justify-between gap-14 lg:max-h-screen x-overflow-hidden text-white max-sm:p-4`}
+      className={`flex min-h-screen flex-col items-center p-24 justify-between gap-14   text-white max-sm:p-4`}
       style={{
         backgroundImage: `url(${fundoComp.src})`,
         backgroundSize: "cover",
@@ -52,7 +52,7 @@ export default function Home() {
         </Link>
       </section>
 
-      <section className="max-w-[400px] min-h-36 flex justify-center items-end">
+      <section className="max-w-[400px]  flex justify-center items-end">
         <h2>Criado por <a href="https://www.instagram.com/varela.dev/" className="underline">@Ryan Varela</a></h2>
       </section>
     </main>
