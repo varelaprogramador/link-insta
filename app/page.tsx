@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main
-      className={`flex min-h-screen flex-col items-center p-24 justify-between gap-14   text-white max-sm:p-4`}
+      className={`flex w-full min-h-screen flex-col items-center p-24 justify-between gap-14 overflow-hidden   text-white max-sm:p-4`}
       style={{
         backgroundImage: `url(${fundoComp.src})`,
         backgroundSize: "cover",
