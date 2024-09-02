@@ -8,17 +8,17 @@ import Link from "next/link";
 export default function Orcamento() {
   return (
     <main
-    className={`flex min-h-screen flex-col items-center p-24 justify-between gap-14 lg:max-h-screen x-overflow-hidden text-white max-sm:p-4`}
-    style={{
-      backgroundImage: `url(${fundoComp.src})`,
-      backgroundSize: "cover",
-      backgroundPosition: "center",
-    }}
-  >
+      className={`flex w-full min-h-screen flex-col items-center p-24 justify-between gap-14 overflow-hidden   text-white max-sm:p-4`}
+      style={{
+        backgroundImage: `url(${fundoComp.src})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
 
-      <div className="w-full flex justify-between items-start">
+      <div className="w-full flex justify-between items-start max-md:flex-col max-md:items-center">
         <Link href={"/"}>
-          <button className="p-2 bg-white text-black rounded-md font-semibold ">
+          <button className="min-w-[100px] p-2 bg-white text-black rounded-md font-semibold max-md:self-start">
             &larr; Voltar</button>
         </Link>
 
