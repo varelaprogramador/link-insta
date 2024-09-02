@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main
-      className={`flex min-h-screen flex-col items-center p-24 justify-between gap-14 lg:max-h-screen overflow-hidden text-white max-sm:p-4`}
+      className={`flex min-h-screen flex-col items-center p-24 justify-between gap-14 lg:max-h-screen x-overflow-hidden text-white max-sm:p-4`}
       style={{
         backgroundImage: `url(${fundoComp.src})`,
         backgroundSize: "cover",
@@ -23,7 +23,7 @@ export default function Home() {
         />
       </div>
 
-      <section className="w-full grid grid-cols-2 gap-20 max-h-[400px] max-lg:grid-cols-1 max-lg:min-h-[400px]">
+      <section className="w-full grid grid-cols-2 gap-8 min-h-[400px]  max-lg:grid-cols-1  ">
         <Link href={"/orcamento"} className={`w-full h-[295px] rounded-md animate-slideInLeft`}>
           <div
             className={`w-full h-full rounded-md flex flex-col justify-end`}
